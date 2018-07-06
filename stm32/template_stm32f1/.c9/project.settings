@@ -1,0 +1,28 @@
+{
+    "build": {
+        "@builder": "stm32",
+        "@saveall": true
+    },
+    "language": {
+        "tern_defs": {
+            "json()": {
+                "browser": {
+                    "enabled": true
+                },
+                "ecma5": {
+                    "enabled": true
+                },
+                "jQuery": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    "run": {
+        "@runner": "stm32",
+        "configs": {
+            "@inited": "true",
+            "json()": {}
+        }
+    }
+}

@@ -1,0 +1,6 @@
+[submodule "c9sdk"]
+	path = c9sdk
+	url = https://github.com/jeasinema/core
+[submodule "cloud9-launcher"]
+	path = cloud9-launcher
+	url = https://github.com/jeasinema/cloud9-launcher
